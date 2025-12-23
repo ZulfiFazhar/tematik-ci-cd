@@ -1,6 +1,5 @@
 import {
   createUserService,
-  deleteUserByIdService,
   getListUsersService,
 } from "../services/userService.js";
 
