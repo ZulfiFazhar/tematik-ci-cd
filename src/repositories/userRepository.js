@@ -1,12 +1,11 @@
 import { database } from "../database/database.js";
-import { ResponseError } from "../error/responseError.js";
 
 const createUserRepository = (user) => {
-    database.push(user)
+  database.push(user);
 };
 
 const getListUsersRepository = () => {
-    return database
+  return database;
 };
 
 // const deleteUserByIdRepository = (userId) => {
@@ -23,7 +22,7 @@ const getListUsersRepository = () => {
 // };
 
 export {
-    createUserRepository,
-    getListUsersRepository,
-    // deleteUserByIdRepository
-}
+  createUserRepository,
+  getListUsersRepository,
+  // deleteUserByIdRepository
+};
